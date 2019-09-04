@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_color">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="381dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="100dp"
+        android:padding="3dp"
+        android:text="Health"
+        android:textColor="#FBFBEC"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="364dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="90dp"
+        android:padding="3dp"
+        android:text="Assetant"
+        android:textColor="#FBFBEC"
+
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="408dp"
+        android:layout_height="166dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="176dp"
+        android:drawableLeft="@drawable/y"
+        android:padding="3dp" />
+
+</RelativeLayout>
+
+
+
